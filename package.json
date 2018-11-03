@@ -1,7 +1,7 @@
 {
-  "name": "courses_configuration_client",
+  "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "config courses",
+  "description": "custom react boilerplate with webpack and babel",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/**/**/*.js",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/classroom-project/courses_configuration_client.git"
+    "url": "git+ssh://git@github.com:TheEnmanuel23/custom-react-boilerplate.git"
   },
   "author": "enmisac@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/classroom-project/courses_configuration_client/issues"
+    "url": "https://github.com/TheEnmanuel23/custom-react-boilerplate.git/issues"
   },
-  "homepage": "https://gitlab.com/classroom-project/courses_configuration_client#README",
+  "homepage": "https://github.com/TheEnmanuel23/custom-react-boilerplate.git#README",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
