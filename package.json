@@ -1,0 +1,48 @@
+{
+  "name": "courses_configuration_client",
+  "version": "1.0.0",
+  "description": "config courses",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env=production --progress",
+    "dev": "env-cmd .env webpack-dev-server --env=development --progress",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/classroom-project/courses_configuration_client.git"
+  },
+  "author": "enmisac@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/classroom-project/courses_configuration_client/issues"
+  },
+  "homepage": "https://gitlab.com/classroom-project/courses_configuration_client#README",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-syntax-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.1",
+    "env-cmd": "^8.0.2",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "express": "^4.16.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
