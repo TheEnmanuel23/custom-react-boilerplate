@@ -4,4 +4,4 @@ import { render } from 'react-dom';
 
 import HelloWorld from './HelloWorld';
 
-render(<HelloWorld />, document.querySelector('main'));
+render(<HelloWorld title="Hello world" />, document.querySelector('main'));

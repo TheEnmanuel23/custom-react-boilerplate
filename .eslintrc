@@ -2,7 +2,11 @@
   "parser": "babel-eslint",
   "extends": [
     "airbnb",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": [
+    "flowtype"
   ],
   "parserOptions": {
     "ecmaVersion": 6,
@@ -15,6 +19,7 @@
   },
   "rules": {
     "react/jsx-filename-extension": 0,
-    "import/no-dynamic-require": 0
+    "import/no-dynamic-require": 0,
+    "flowtype/no-types-missing-file-annotation": 0
   }
 }
