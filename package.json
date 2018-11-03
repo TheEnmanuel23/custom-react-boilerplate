@@ -25,9 +25,9 @@
   "author": "enmisac@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TheEnmanuel23/custom-react-boilerplate.git/issues"
+    "url": "https://github.com/TheEnmanuel23/custom-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/TheEnmanuel23/custom-react-boilerplate.git#README",
+  "homepage": "https://github.com/TheEnmanuel23/custom-react-boilerplate#README",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
