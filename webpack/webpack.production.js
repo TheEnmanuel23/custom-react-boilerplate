@@ -1,4 +1,5 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // eslint-disable-line import/no-extraneous-dependencies
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // eslint-disable-line import/no-extraneous-dependencies
 const path = require('path');
 
 module.exports = root => ({
@@ -25,5 +26,6 @@ module.exports = root => ({
       filename: '[name]-[hash].css',
       chunkFilename: '[id].css',
     }),
+    new OptimizeCssAssetsPlugin({}),
   ],
 });
